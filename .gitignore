@@ -1,0 +1,85 @@
+
+# ==========================================
+# InterviewEdge AI - Git Ignore
+# ==========================================
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual Environments
+.venv/
+venv/
+env/
+ENV/
+
+# Python Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.nox/
+
+# Python Type Checking
+.mypy_cache/
+.pyright/
+.ruff_cache/
+
+# Environment Variables
+.env
+.env.*
+!.env.example
+
+# FastAPI / Uvicorn
+uvicorn.log
+
+# Database
+*.db
+*.sqlite3
+
+# Frontend - Node
+node_modules/
+frontend/node_modules/
+
+# Build Output
+dist/
+build/
+frontend/dist/
+
+# Vite
+frontend/.vite/
+
+# Logs
+*.log
+logs/
+
+# IDE
+.vscode/
+.idea/
+
+# OS Files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary Files
+*.tmp
+*.temp
+*.swp
+*.swo
+*.bak
+
+# Secrets / Credentials
+secrets/
+credentials.json
+service-account.json
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Generated Reports
+reports/generated/
+
+# Docker
+docker-compose.override.yml
