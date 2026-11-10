@@ -1,4 +1,3 @@
+from app.core.config import settings
 
-from app.schemas.interview import InterviewCreate, InterviewResponse
-
-__all__ = ["InterviewCreate", "InterviewResponse"]
+__all__ = ["settings"]
