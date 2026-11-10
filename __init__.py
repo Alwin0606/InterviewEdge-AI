@@ -1,1 +1,4 @@
-"""API routes for InterviewEdge AI."""
+
+from app.schemas.interview import InterviewCreate, InterviewResponse
+
+__all__ = ["InterviewCreate", "InterviewResponse"]
